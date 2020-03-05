@@ -1,0 +1,43 @@
+body {
+    background-color: lavender;
+}
+header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.jokes__container {
+flex-wrap: wrap;
+flex-basis: auto;
+justify-content: center;
+display: flex;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    border-color: black;
+    text-align: center;
+    background-color: ivory;
+    height: 10rem;
+    width: 20rem;
+    margin: .5rem;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: deepskyblue;
+  }
+  button {
+      text-align: center;
+  }
+  button:hover {
+      background-color: gold;
+  }
+  .question {
+      text-decoration: underline;
+  }
+  dialog {
+      background-color: lavender;
+  }
